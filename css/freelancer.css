@@ -240,6 +240,57 @@ section.success {
     margin: 0 0 30px;
   }
 }
+
+}
+#portfoliotwo .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#portfoliotwo .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption {
+  background: rgba(254,202,48,0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfoliotwo .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#portfoliotwo * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #portfoliotwo .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
