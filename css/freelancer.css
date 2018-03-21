@@ -103,7 +103,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #D86D00;
+  background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -203,7 +203,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: rgba(254,202,48,0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -240,6 +240,57 @@ section.success {
     margin: 0 0 30px;
   }
 }
+
+}
+#portfoliotwo .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#portfoliotwo .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption {
+  background: rgba(254,202,48,0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#portfoliotwo .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfoliotwo .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#portfoliotwo * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #portfoliotwo .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -297,14 +348,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #D86D00;
+  background-color: #2C3E50;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #000000;
+  background-color: #233140;
 }
 .btn-outline {
   color: white;
@@ -324,8 +375,8 @@ footer .footer-below {
 }
 .btn-primary {
   color: white;
-  background-color: #D86D00;
-  border-color: #D86D00;
+  background-color: #2C3E50;
+  border-color: #2C3E50;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -334,8 +385,8 @@ footer .footer-below {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #1a242f;
+  border-color: #161f29;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -357,11 +408,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #D86D00;
-  border-color: #D86D00;
+  background-color: #2C3E50;
+  border-color: #2C3E50;
 }
 .btn-primary .badge {
-  color: #D86D00;
+  color: #2C3E50;
   background-color: white;
 }
 .btn-success {
@@ -376,8 +427,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #FECA30;
-  border-color: #FECA30;
+  background-color: #128f76;
+  border-color: #11866f;
 }
 .btn-success:active,
 .btn-success.active,
@@ -467,7 +518,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #D86D00;
+  background-color: #2C3E50;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -478,7 +529,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #D86D00;
+  background-color: #2C3E50;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
