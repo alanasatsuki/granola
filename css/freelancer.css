@@ -374,10 +374,10 @@ footer .footer-below {
   border: solid 2px white;
 }
 .btn-outline2 {
-  color: #FECA30;
+  color: white;
   font-size: 20px;
-  border: solid 2px #FECA30;
-  background: transparent;
+  border: solid 2px #D86D00;
+  background: #D86D00;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
@@ -385,9 +385,9 @@ footer .footer-below {
 .btn-outline2:focus,
 .btn-outline2:active,
 .btn-outline2.active {
-  color: white;
-  background: #FECA30;
-  border: solid 2px #FECA30;
+  color: #D86D00;
+  background: white;
+  border: solid 2px #D86D00;
 }
 .btn-primary {
   color: white;
